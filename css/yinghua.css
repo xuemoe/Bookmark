@@ -1,0 +1,84 @@
+.col {
+    height: 60px;
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    background-image: url(../img/6f5602587b97909284db_1920x1080.jpg);
+    background-position: center 56px;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    box-sizing: border-box;
+
+}
+
+.a,
+.b {
+    /* 透明玻璃效果 */
+    /* 需要背景透明 */
+    background-color: rgba(0, 204, 255, .2);
+    /* 实现边框效果,实现外部阴影效果 */
+    box-shadow: 0 0 0 0.5px hsla(240, 0%, 100%, .3) inset, 0 .5em 1em rgba(0, 0, 0, 0.6);
+    /* CSS3 文字阴影效果 */
+    text-shadow: 0 1px 1px hsla(240, 0%, 100%, .5);
+}
+
+.b {
+    /* height: 420px; */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.c {
+    margin-bottom: 10px;
+}
+
+.col-md-2 {
+    border-radius: 8px;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, .4);
+    box-shadow: 0 0 0 0.5px hsla(240, 0%, 100%, .3) inset, 0 .1em 0.2em rgba(0, 0, 0, 0.6);
+}
+
+.col-md-2 a {
+    display: inline-block;
+    line-height: 40px;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.col-md-2:hover {
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 0 0 0 0.5px hsla(240, 0%, 100%, .3) inset, 0 .5em 1em rgba(0, 0, 0, 0.6);
+}
+
+.col-md-2:active {
+    background-color: rgba(255, 255, 255, .7);
+}
+
+#yinghua {
+    width: 50px;
+    height: 50px;
+    margin-top: -5%;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1001;
+    /*-webkit-transform:rotate3d(.6,1,.6,45deg);*/
+    /*-moz-transform:rotate3d(.6,1,.6,45deg);*/
+    /*-ms-transform:rotate3d(.6,1,.6,45deg);*/
+    /*-o-transform:rotate3d(.6,1,.6,45deg);*/
+    /*transform:rotate3d(.6,1,.6,45deg);*/
+
+}
+
+@media screen and (max-width: 768px) {
+    .col-md-2 {
+        margin: 1px auto;
+    }
+}
