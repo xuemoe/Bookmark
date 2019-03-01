@@ -5,79 +5,16 @@
         <title>书签记录</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="../css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../css/yinghua.css">
         <script src="../js/jquery.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
-        <style>
-            .col {
-                height: 60px;
-                border: 1px solid #333;
-                padding: 10px;
-            }
-            
-           body{
-                margin: 0;
-                background-image:url(../img/6f5602587b97909284db_1920x1080.jpg);
-                background-position:center 56px;
-                background-size:cover;
-                background-attachment:fixed;
-                -webkit-background-size: cover; 
-                -moz-background-size: cover; 
-                -o-background-size: cover;
-            }
-            .a,.b{
-                /* 透明玻璃效果 */
-                /* 需要背景透明 */
-                background-color:rgba(0,204,255,.2);
-                /* 实现边框效果,实现外部阴影效果 */
-                box-shadow: 0 0 0 0.5px hsla(240,0%,100%,.3) inset,0 .5em 1em rgba(0, 0, 0, 0.6);
-                /* CSS3 文字阴影效果 */
-                text-shadow: 0 1px 1px hsla(240,0%,100%,.5);
-            }
-            .b{
-                /* height: 420px; */
-                padding: 20px;
-                border-radius: 8px;
-            }
-            
-            .c{
-                margin-bottom: 10px;
-            }
-            
-            .col-md-2{
-                border-radius: 8px;
-                margin: 15px;
-                background-color: rgba(255,255,255,.4);
-                box-shadow: 0 0 0 0.5px hsla(240,0%,100%,.3) inset,0 .1em 0.2em rgba(0, 0, 0, 0.6);
-            }
-            
-            .col-md-2 a{
-                display: inline-block;
-                line-height: 40px;
-                width: 100%;
-                text-decoration: none;
-                color: #FFFFFF;
-            }
-            
-            .col-md-2:hover{
-                background-color: rgba(255,255,255,.5);
-                box-shadow: 0 0 0 0.5px hsla(240,0%,100%,.3) inset,0 .5em 1em rgba(0, 0, 0, 0.6);
-            }
-            
-            .col-md-2:active{
-                background-color: rgba(255,255,255,.7);
-            }
-            
-            @media screen and (max-width: 768px){
-                .col-md-2{
-                    margin:1px auto;
-                }
-            }
-            
-            
-        </style>
-
     </head>
     <body>
+
+        <div class="cherry">
+            <img id="yinghua" src="../img/yinghua.png" alt="">
+        </div>
+        <script src="../js/yinghua.js"></script>
         <!-- 导航 -->
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <!-- Brand -->
@@ -101,11 +38,9 @@
                         <a class="nav-link" href="#">Link</a>
                     </li>
                 </ul>
-
-
-
             </div>
         </nav>
+        
         <div class="jumbotron jumbotron-fluid text-center a">
             <h1>我的第一个 Bootstrap 页面</h1>
             <p>重置浏览器大小查看效果!</p>
@@ -170,88 +105,101 @@
 
                         </div>
                         <div class="tab-pane container" id="menu1">
-							<div class="row ">
-                            <div class="col-md-2">
-                                <a href="http://www.runoob.com/" title="菜鸟教程(www.runoob.com)提供了编程的基础技术教程">菜鸟教程</a>
+                            <div class="row ">
+                                <div class="col-md-2">
+                                    <a href="http://www.runoob.com/" title="菜鸟教程(www.runoob.com)提供了编程的基础技术教程">菜鸟教程</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
                             </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-							</div>
                         </div>
                         <div class="tab-pane container" id="menu2">
-							<div class="row ">
-                            <div class="col-md-2">
-                                <a href="http://www.runoob.com/" title="菜鸟教程(www.runoob.com)提供了编程的基础技术教程">菜鸟教程</a>
+                            <div class="row ">
+                                <div class="col-md-2">
+                                    <a href="http://www.runoob.com/" title="菜鸟教程(www.runoob.com)提供了编程的基础技术教程">菜鸟教程</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" title="?">1111</a>
+                                </div>
                             </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#" title="?">1111</a>
-                            </div>
-							</div>
                         </div>
                     </div>
 
                 </div>
             </div>
+
+            <script>
+                $(function() {
+                    $('.cherry').Cherry_Blossoms({
+                        is_Cherry: true, //是否生成樱花
+                        image_min: 10, //花瓣最小宽度和高度
+                        image_max: 50, //花瓣最大宽度和高度
+                        time_min: 10000, //花瓣最快下坠时间
+                        time_max: 20000, //花瓣最慢下坠时间
+                        interval: 500 //花瓣生成时间间隔
+                    })
+                })
+            </script>
     </body>
 </html>
