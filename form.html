@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <style>
+            #a{
+                margin-top: 80px;
+            }
+            #f{
+                margin: 10px auto;
+                max-width: 360px;
+            }
+            .ts{
+                margin-left: 12px;
+                font-size: 14px;
+                color: #C69500;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-4 col-4" id="a">
+                    <form method="" action="" id="f">
+                        <div class="form-group">
+                            <label for="phone">手机:</label>
+                            <input type="tel" class="form-control" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="ivcode" style="display: block !important">图片验证码:<span style="display: none ;" class="ts">请输入图片验证码</span></label>
+                            <input type="text" class="form-control col-8" id="ivcode" required style="display: inline-block !important">
+                            <span class="form-control col-3" style="display: inline-block !important">验证码</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="pvcode" style="display: block !important">手机验证码:<span style="display: none;" class="ts">验证码为6位数字</span></label>
+                            <input type="text" class="form-control col-8" id="pvcode" required style="display: inline-block !important">
+                            <button type="button" class="col-" value="获取验证码" >获取验证码</button>
+                        </div>
+                        <div class="form-group">
+                            <label for="std">姓名:<span style="display: none ;" class="ts">姓名不能为空</span></label>
+                            <input type="text" class="form-control" id="std" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="scl" style="display: block !important">学校:</label>
+                            <select class="form-control col-5" id="scl1" style="display: inline-block !important" required>
+                                <option disabled selected value></option>
+                                <option>学校</option>
+                                <option>学校</option>
+                                <option>学校</option>
+                                <option>学校</option>
+                            </select>
+                            <select class="form-control col-6" id="scl2" style="display: inline-block !important" required>
+                                <option disabled selected value></option>
+                                <option>专业</option>
+                                <option>专业</option>
+                                <option>专业</option>
+                                <option>专业</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">密码:<span style="display: none ;" class="ts">密码应至少包含8个字母或数字</span></label>
+                            <input type="password" class="form-control" id="pwd" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd1">确认密码:<span style="display: none ;" class="ts">两次输入密码不一致</span></label>
+                            <input type="password" class="form-control" id="pwd1" required>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" required> 同意《快论文用户协议》
+                            </label>
+                        </div>
+                        <br/>
+                        <button type="submit" class="btn btn-success col-12">注册</button>
+                    </form>
+                
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
